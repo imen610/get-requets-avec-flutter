@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:posts/views/homePage.dart';
+// url of the vedio : https://www.youtube.com/watch?v=c09XiwOZKsI
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo', 
+      title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
         //
